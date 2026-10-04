@@ -1,0 +1,23 @@
+# Maven build artifacts
+target/
+*.jar
+*.war
+*.ear
+*.class
+
+# Log and AOF runtime data
+*.log
+*.aof
+appendonly.aof
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+.DS_Store
+
+# Antigravity artifacts
+.system_generated/
